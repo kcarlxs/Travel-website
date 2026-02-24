@@ -1,4 +1,4 @@
-.hero-img {
+.hero .hero-img {
   height: 400px;
   width: 100%;
   background: url("../img/hero-mobile.jpg") center center/cover no-repeat;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     width: 100%;
     background: url("../img/hero-tablet.jpg") center center/cover no-repeat;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     background: url("../img/hero-desktop.jpg") center center/cover no-repeat;
   }
   .hero h2 {
