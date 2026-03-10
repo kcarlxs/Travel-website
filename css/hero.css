@@ -29,12 +29,12 @@
   .hero .hero-img {
     background: url("../img/hero-desktop.jpg") center center/cover no-repeat;
   }
-  .hero h2 {
+  .hero .hero h2 {
     padding: 88px 120px;
   }
 }
 @media screen and (min-width: 1920px) {
-  .hero h2 {
+  .hero .hero h2 {
     padding: 88px 160px;
   }
 }
